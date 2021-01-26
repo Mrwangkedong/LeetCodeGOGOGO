@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="85ec3614-614f-43a3-9140-126f0d0d3142" name="Default Changelist" comment="">
+    <list default="true" id="85ec3614-614f-43a3-9140-126f0d0d3142" name="Default Changelist" comment="03">
       <change afterPath="$PROJECT_DIR$/src/03-无重复字符的最长子串.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -88,5 +88,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="03" />
+    <option name="LAST_COMMIT_MESSAGE" value="03" />
   </component>
 </project>
