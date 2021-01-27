@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 /*
 给你一个字符串 s，找到 s 中最长的回文子串。
 
@@ -14,7 +16,6 @@ package main
 
 func longestPalindrome(s string) string {
 	result := string(s[0])
-
 	//设置一个黑名单map，包含某个不是回文子串的范围，若小子串在大子串里面，则大子串肯定不是回文子串
 	//black_map[1] = 3   遇到  black_map[1] = 5  则进行更新为black_map[1] = 5
 	black_map := make(map[int]int)
@@ -25,11 +26,12 @@ func longestPalindrome(s string) string {
 	//遍历字符串，进行letter_map的填充
 	//在填充的时候，可以进行判断是否为回文子串！！！
 	for index, i := range s {
-		//判断是否存在，如果不存在就新建
+		//判断是否存在int数组，如果不存在就新建
 		if _, has := letter_map[string(i)]; !has {
 			letter_map[string(i)] = []int{index}
 		} else {
-			//如果存在，开始进行判断，是否已前一个是回环
+			//如果存在int数组，说明前面已经有一个相同的字母，
+			//开始进行判断，是否已前一个是黑名单回环
 			exist := 0                                                        //0表示不存在，1表示存在
 			last_index := letter_map[string(i)][len(letter_map[string(i)])-1] //表示上一次出现的位置
 			//先判断是否存在于黑名单中的子串属于他
@@ -40,23 +42,26 @@ func longestPalindrome(s string) string {
 					break     //跳出
 				}
 			}
-			//如果存在小回环，且如果black_map[index-1]的值小于index，则扩大范围;如果不存在，就创建
+			//如果存在小黑名单回环，且如果black_map[index-1]的值小于index，则扩大范围;如果不存在，就创建
 			if exist == 1 {
 				if _, has := black_map[last_index]; has && (black_map[last_index] < index) || (!has) {
 					black_map[last_index] = index
 				}
 			} else {
-				//如果不存在小回环，就自行进行判断
-				for j := 1; j < (index-letter_map[string(i)][last_index])/2; j++ {
-					//如果有一处不相对称，就说明不存在回环
+				//如果不存在小黑名单回环，就自行进行判断
+				for j := 1; j < (index-last_index)/2; j++ {
+					//如果有一处不相对称，就说明不存在回环，更新黑名单
 					if s[last_index+j] != s[index-j] {
 						black_map[last_index] = index
 						break
 					}
 				}
-
+				//能够出来，说明是回环；判断与当前result对比长度
+				if (index - last_index + 1) > len(result) {
+					result = s[last_index : index+1]
+				}
 			}
-
+			letter_map[string(i)] = append(letter_map[string(i)], index)
 		}
 	}
 
@@ -64,5 +69,5 @@ func longestPalindrome(s string) string {
 }
 
 func main() {
-	longestPalindrome("asd")
+	fmt.Println(longestPalindrome("ccc"))
 }

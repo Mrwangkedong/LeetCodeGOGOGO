@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="85ec3614-614f-43a3-9140-126f0d0d3142" name="Default Changelist" comment="04">
-      <change afterPath="$PROJECT_DIR$/src/05-最长回文子串.go" afterDir="false" />
+    <list default="true" id="85ec3614-614f-43a3-9140-126f0d0d3142" name="Default Changelist" comment="05-最长回文子串">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/04-.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/04-华为—进制转换.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/05-最长回文子串.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/05-最长回文子串.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,6 +88,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="03" />
     <MESSAGE value="04" />
-    <option name="LAST_COMMIT_MESSAGE" value="04" />
+    <MESSAGE value="05-最长回文子串" />
+    <option name="LAST_COMMIT_MESSAGE" value="05-最长回文子串" />
   </component>
 </project>
