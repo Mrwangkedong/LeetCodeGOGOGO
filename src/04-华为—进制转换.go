@@ -1,5 +1,10 @@
 package main
 
+import (
+	"fmt"
+	"strconv"
+)
+
 /*
 给定两个大小为 m 和 n 的正序（从小到大）数组 nums1 和 nums2。请你找出并返回这两个正序数组的中位数。
 例子：
@@ -8,3 +13,13 @@ package main
 解释：合并数组 = [1,2,3] ，中位数 2
 
 */
+func main() {
+
+	for true {
+		str := ""
+		_, _ = fmt.Scan(&str)
+		num, _ := strconv.ParseInt(str[2:], 16, 64)
+		fmt.Println(num)
+	}
+
+}
