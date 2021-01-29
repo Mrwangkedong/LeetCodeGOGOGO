@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="85ec3614-614f-43a3-9140-126f0d0d3142" name="Default Changelist" comment="05-最长回文子串">
+    <list default="true" id="85ec3614-614f-43a3-9140-126f0d0d3142" name="Default Changelist" comment="05-最长回文子串--defeat">
+      <change afterPath="$PROJECT_DIR$/src/07-整数反转.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/05-最长回文子串.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/05-最长回文子串.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,13 +38,23 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$" />
   </component>
-  <component name="RunManager" selected="Go Build.go build 05-最长回文子串.go">
+  <component name="RunManager" selected="Go Build.go build 算法刷题/src (1)">
     <configuration name="go build 05-最长回文子串.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="算法刷题" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/src/05-最长回文子串.go" />
       <package value="算法刷题" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build 算法刷题/src (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="算法刷题" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/07-整数反转.go" />
+      <package value="算法刷题/src" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -61,9 +71,11 @@
     <list>
       <item itemvalue="Go Build.go build 算法刷题/src" />
       <item itemvalue="Go Build.go build 05-最长回文子串.go" />
+      <item itemvalue="Go Build.go build 算法刷题/src (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build 算法刷题/src (1)" />
         <item itemvalue="Go Build.go build 05-最长回文子串.go" />
         <item itemvalue="Go Build.go build 算法刷题/src" />
       </list>
@@ -89,6 +101,7 @@
     <MESSAGE value="03" />
     <MESSAGE value="04" />
     <MESSAGE value="05-最长回文子串" />
-    <option name="LAST_COMMIT_MESSAGE" value="05-最长回文子串" />
+    <MESSAGE value="05-最长回文子串--defeat" />
+    <option name="LAST_COMMIT_MESSAGE" value="05-最长回文子串--defeat" />
   </component>
 </project>
