@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="85ec3614-614f-43a3-9140-126f0d0d3142" name="Default Changelist" comment="07-整数反转">
-      <change afterPath="$PROJECT_DIR$/src/04-华为-停车位.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/04-华为-损坏的或门电路.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/04-华为-最少步数到达终点.go" afterDir="false" />
+    <list default="true" id="85ec3614-614f-43a3-9140-126f0d0d3142" name="Default Changelist" comment="2/1华为面试题">
+      <change afterPath="$PROJECT_DIR$/src/剑指21-奇数位于偶数前.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/剑指46-数字翻译成字符串.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,6 +39,32 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$" />
   </component>
+  <component name="RunManager" selected="Go Build.go build 剑指21-奇数位于偶数前.go">
+    <configuration name="go build 剑指21-奇数位于偶数前.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="算法刷题" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/剑指21-奇数位于偶数前.go" />
+      <package value="算法刷题" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build 剑指46-数字翻译成字符串.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="算法刷题" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/剑指46-数字翻译成字符串.go" />
+      <package value="算法刷题" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build 剑指21-奇数位于偶数前.go" />
+        <item itemvalue="Go Build.go build 剑指46-数字翻译成字符串.go" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
@@ -62,6 +87,7 @@
     <MESSAGE value="05-最长回文子串" />
     <MESSAGE value="05-最长回文子串--defeat" />
     <MESSAGE value="07-整数反转" />
-    <option name="LAST_COMMIT_MESSAGE" value="07-整数反转" />
+    <MESSAGE value="2/1华为面试题" />
+    <option name="LAST_COMMIT_MESSAGE" value="2/1华为面试题" />
   </component>
 </project>
