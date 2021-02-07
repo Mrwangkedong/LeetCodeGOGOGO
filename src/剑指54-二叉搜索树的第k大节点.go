@@ -33,7 +33,7 @@ func kthLargest(root *TreeNode, k int) int {
 	for p != nil {
 		//取出栈顶元素
 		p = TreeStack[TopIndex]
-		//看看有没有右子树，如果有添加进去栈，如果没有，遍历当前,i++,添加左子树进栈
+		//看看有没有右子树，如果有添加进去栈，如果没有，遍历当前,i++,添加左子树进栈1
 		if p.Right != nil {
 			TreeStack = append(TreeStack, p.Right)
 			TopIndex++
