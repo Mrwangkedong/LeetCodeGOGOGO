@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	//正整数N
+	//正整数N1
 	num := 0
 	_, _ = fmt.Scan(&num)
 	//第一个输入数
