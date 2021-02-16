@@ -21,7 +21,7 @@ func kthLargest(root *TreeNode, k int) int {
 	//思路：进行中序遍历，不过是先右子树再root再左子树
 	//1.创建栈
 	TreeStack := []*TreeNode{}
-	//2.top变量，K大变量
+	//2.top变量，，K大变量
 	TopIndex := -1
 	i := 0
 	p := root
