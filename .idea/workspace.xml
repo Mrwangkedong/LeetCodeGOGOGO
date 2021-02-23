@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="85ec3614-614f-43a3-9140-126f0d0d3142" name="Default Changelist" comment="2/21进制转换" />
+    <list default="true" id="85ec3614-614f-43a3-9140-126f0d0d3142" name="Default Changelist" comment="2/21进制转换">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/剑指54-二叉搜索树的第k大节点.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/剑指54-二叉搜索树的第k大节点.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,7 +38,7 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$" />
   </component>
-  <component name="RunManager" selected="Go Build.-根据字符出现频率排序">
+  <component name="RunManager" selected="Go Build.go build 算法刷题/src">
     <configuration name="-根据字符出现频率排序" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
       <module name="算法刷题" />
       <working_directory value="$PROJECT_DIR$" />
@@ -64,8 +67,19 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <configuration name="go build 算法刷题/src" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="算法刷题" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/剑指54-二叉搜索树的第k大节点.go" />
+      <package value="算法刷题/src" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build 算法刷题/src" />
         <item itemvalue="Go Build.-根据字符出现频率排序" />
         <item itemvalue="Go Build.go build 剑指21-奇数位于偶数前.go" />
         <item itemvalue="Go Build.go build 剑指46-数字翻译成字符串.go" />

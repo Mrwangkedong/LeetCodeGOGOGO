@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 /**
  * 给定一棵二叉搜索树，请找出其中第k大的节点。
  * Definition for a binary tree node.
@@ -20,35 +22,27 @@ func kthLargest(root *TreeNode, k int) int {
 
 	//思路：进行中序遍历，不过是先右子树再root再左子树
 	//1.创建栈
-	TreeStack := []*TreeNode{}
+	var TreeStack [99]*TreeNode
 	//2.top变量，，K大变量
 	TopIndex := -1
 	i := 0
 	p := root
-	//3.root先进栈
-	TreeStack = append(TreeStack, root)
-	TopIndex++
-
-	//4.进行循环遍历
-	for p != nil {
-		//取出栈顶元素
-		p = TreeStack[TopIndex]
-		//看看有没有右子树，如果有添加进去栈，如果没有，遍历当前,i++,添加左子树进栈1
-		if p.Right != nil {
-			TreeStack = append(TreeStack, p.Right)
+	//root入栈
+	for TopIndex != -1 || p != nil {
+		//如果p！=nil，p入栈
+		if p != nil {
 			TopIndex++
+			TreeStack[TopIndex] = p
+			p = p.Right
 		} else {
-			i++
+			p = TreeStack[TopIndex]
 			TopIndex--
-			//对比i是否等于k,如果等于，返回当前节点的val值
+			i++
+			fmt.Println(i, p.Val)
 			if i == k {
 				return p.Val
 			}
-			//添加左子树
-			if p.Left != nil {
-				TreeStack = append(TreeStack, p.Left)
-				TopIndex++
-			}
+			p = p.Left
 		}
 	}
 
@@ -56,7 +50,20 @@ func kthLargest(root *TreeNode, k int) int {
 }
 
 func main() {
+	var root TreeNode
+	root.Val = 5
+	root.Left = new(TreeNode)
+	root.Left.Val = 3
+	root.Right = new(TreeNode)
+	root.Right.Val = 6
+	root.Left.Left = new(TreeNode)
+	root.Left.Left.Val = 2
+	root.Left.Right = new(TreeNode)
+	root.Left.Right.Val = 4
+	root.Right.Left = nil
+	root.Right.Right = nil
 
+	fmt.Println(kthLargest(&root, 3))
 }
 
 //获得二叉树的length
