@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="85ec3614-614f-43a3-9140-126f0d0d3142" name="Default Changelist" comment="2/21进制转换">
+    <list default="true" id="85ec3614-614f-43a3-9140-126f0d0d3142" name="Default Changelist" comment="2/23">
+      <change afterPath="$PROJECT_DIR$/src/1089-复写0.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/剑指54-二叉搜索树的第k大节点.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/剑指54-二叉搜索树的第k大节点.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +38,7 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$" />
   </component>
-  <component name="RunManager" selected="Go Build.go build 算法刷题/src">
+  <component name="RunManager" selected="Go Build.go build 算法刷题/src (1)">
     <configuration name="-根据字符出现频率排序" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
       <module name="算法刷题" />
       <working_directory value="$PROJECT_DIR$" />
@@ -67,6 +67,16 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <configuration name="go build 算法刷题/src (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="算法刷题" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/1089-复写0.go" />
+      <package value="算法刷题/src" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build 算法刷题/src" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="算法刷题" />
       <working_directory value="$PROJECT_DIR$" />
@@ -79,6 +89,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build 算法刷题/src (1)" />
         <item itemvalue="Go Build.go build 算法刷题/src" />
         <item itemvalue="Go Build.-根据字符出现频率排序" />
         <item itemvalue="Go Build.go build 剑指21-奇数位于偶数前.go" />
@@ -115,6 +126,7 @@
     <MESSAGE value="2/21" />
     <MESSAGE value="2/21停车位" />
     <MESSAGE value="2/21进制转换" />
-    <option name="LAST_COMMIT_MESSAGE" value="2/21进制转换" />
+    <MESSAGE value="2/23" />
+    <option name="LAST_COMMIT_MESSAGE" value="2/23" />
   </component>
 </project>
