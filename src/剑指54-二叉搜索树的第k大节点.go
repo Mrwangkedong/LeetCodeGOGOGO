@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"gols/src/abc"
+)
 
 /**
  * 给定一棵二叉搜索树，请找出其中第k大的节点。
@@ -11,18 +14,13 @@ import "fmt"
  *     Right *TreeNode
  * }
  */
-type TreeNode struct {
-	Val   int
-	Left  *TreeNode
-	Right *TreeNode
-}
 
 //搜索二叉树，左小右大
-func kthLargest(root *TreeNode, k int) int {
+func kthLargest(root *abc.TreeNode, k int) int {
 
 	//思路：进行中序遍历，不过是先右子树再root再左子树
 	//1.创建栈
-	var TreeStack [99]*TreeNode
+	var TreeStack [99]*abc.TreeNode
 	//2.top变量，，K大变量
 	TopIndex := -1
 	i := 0
@@ -50,15 +48,15 @@ func kthLargest(root *TreeNode, k int) int {
 }
 
 func main() {
-	var root TreeNode
+	var root abc.TreeNode
 	root.Val = 5
-	root.Left = new(TreeNode)
+	root.Left = new(abc.TreeNode)
 	root.Left.Val = 3
-	root.Right = new(TreeNode)
+	root.Right = new(abc.TreeNode)
 	root.Right.Val = 6
-	root.Left.Left = new(TreeNode)
+	root.Left.Left = new(abc.TreeNode)
 	root.Left.Left.Val = 2
-	root.Left.Right = new(TreeNode)
+	root.Left.Right = new(abc.TreeNode)
 	root.Left.Right.Val = 4
 	root.Right.Left = nil
 	root.Right.Right = nil
@@ -67,11 +65,11 @@ func main() {
 }
 
 //获得二叉树的length
-func TreeLen(root *TreeNode) int {
+func TreeLen(root *abc.TreeNode) int {
 
 	//第一次遍历，得出支点数
 	//1.创建队列
-	treeQueue := []*TreeNode{}
+	treeQueue := []*abc.TreeNode{}
 	//2.队首队尾index,front出，rear进
 	front := -1
 	rear := -1
